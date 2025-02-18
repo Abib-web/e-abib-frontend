@@ -1,0 +1,16 @@
+.banner {
+    background-image: url('../../images/artificial-photography-vB5qtt8X4NA-unsplash.jpg');
+    background-size: cover;
+    color: #1c2a68;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .banner h1 {
+    font-size: 46px;
+    margin-bottom: 20px;
+  }
+  
+  .banner p {
+    font-size: 28px;
+  }

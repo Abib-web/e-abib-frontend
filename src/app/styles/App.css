@@ -1,0 +1,77 @@
+body {
+    margin: 0px;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  header .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  header .navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  header .navigation ul li {
+    margin-right: 20px;
+  }
+  
+  header .navigation ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  header .search-bar {
+    display: flex;
+    margin-left: auto;
+  }
+  
+  header .search-bar input {
+    padding: 5px;
+  }
+  
+  header .search-bar button {
+    padding: 5px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+  }
+  
+  header .user-actions {
+    margin-left: 20px;
+  }
+  
+  header .user-actions a, header .user-actions button {
+    color: #fff;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+  
+  footer .footer-links a {
+    color: #fff;
+    margin-right: 20px;
+    text-decoration: none;
+  }
+  
+  footer .legal-info {
+    text-align: center;
+    padding: 10px 0;
+  }
+  

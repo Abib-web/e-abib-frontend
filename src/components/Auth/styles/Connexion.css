@@ -1,0 +1,80 @@
+.connexion {
+    max-width: 500px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .connexion h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .connexion form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .connexion form label {
+    margin-bottom: 10px;
+  }
+  
+  .connexion form input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .connexion form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .connexion form button:hover {
+    background-color: #0056b3;
+  }
+  .oauth-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .oauth-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 0 10px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .oauth-icon.google {
+    background-color: #db4437;
+  }
+  
+  .oauth-icon.facebook {
+    background-color: #3b5998;
+  }
+  
+  .oauth-icon.apple {
+    background-color: black;
+  }
+  
+  .oauth-icon:hover {
+    opacity: 0.8;
+  }
+  
